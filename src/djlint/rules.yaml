@@ -7,7 +7,7 @@
     - golang
     patterns:
     # open
-    - '{{[^\s#/@^]+'
+    - '{{[^\s#/@^-]+'
     - '{%-[^\s]+'
     - '{%[^\s|\-]+'
     # handlebars
